@@ -48,24 +48,23 @@ USB devices supported by USB mediator
 
 The following USB devices are supported for the WaaG and LaaG operating systems.
 
-+--------------+------+------+
-| Device       | WaaG | LaaG |
-|              |  OS  |  OS  |
-+==============+======+======+
-| USB Storage  |   Y  |   Y  |
-+--------------+------+------+
-| USB Mouse    |   Y  |   Y  |
-+--------------+------+------+
-| USB Keyboard |   Y  |   Y  |
-+--------------+------+------+
-| USB Camera   |   N  |   Y  |
-+--------------+------+------+
-| USB Headset  |   N  |   Y  |
-+--------------+------+------+
-| USB Hub      |   Y  |   Y  |
-| (20 ports max|      |      |
-| per VM)      |      |      |
-+--------------+------+------+
++--------------+---------+---------+
+| Device       | WaaG OS | LaaG OS |
++==============+=========+=========+
+| USB Storage  |   Y     |   Y     |
++--------------+---------+---------+
+| USB Mouse    |   Y     |   Y     |
++--------------+---------+---------+
+| USB Keyboard |   Y     |   Y     |
++--------------+---------+---------+
+| USB Camera   |   N     |   Y     |
++--------------+---------+---------+
+| USB Headset  |   N     |   Y     |
++--------------+---------+---------+
+| USB Hub      |   Y     |   Y     |
+| (20 ports max|         |         |
+| per VM)      |         |         |
++--------------+---------+---------+
 
 .. note::
    The above information is current as of ACRN 1.2.
